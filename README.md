@@ -1,7 +1,7 @@
-#Basic Map
+# Basic Map
 
-##with Mapbox
-##Documentation: https://docs.mapbox.com/mapbox-gl-js/guides/
+## with Mapbox
+## Documentation: https://docs.mapbox.com/mapbox-gl-js/guides/
 ##
 Navigation is already done and also the a tool to zoom and rotate the map.
 When opened it centers on the current location. 
