@@ -1,5 +1,6 @@
-mapboxgl.accessToken =
-  "pk.eyJ1Ijoiam9uYXRoYW5jb250cmVyYXNtIiwiYSI6ImNsMW01dHdwYTBjZ2ozY3FyaGlmaXFncmQifQ.CFP5v8fFODlnUnau7N8GDQ";
+import os
+
+mapboxgl.accessToken = os.environ['MAPBOX_ACCESS_TOKEN'];
 
 //fetches the current location
 navigator.geolocation.getCurrentPosition(successCurrentLocation, errorCurrentLocation, {
